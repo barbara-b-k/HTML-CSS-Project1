@@ -1,0 +1,97 @@
+style.css
+html{
+  font-size:20px;
+}
+body{
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2;
+  text-align: center;
+  color: black;
+  margin:0;
+}
+h1{
+  font-size:3rem;
+  margin-top:0;
+  margin-bottom:0;
+  padding-top:10px;
+}
+@media (max-width:450px) {
+  h1{
+  font-size: 2rem;
+  line-height: 1;
+ 
+  }
+}
+#ruler{
+  color:green;
+  font-style: italic;
+  margin:0 40px 20px auto;
+  text-align: right;
+}
+  @media (max-width: 450px) {
+    #ruler{
+      font-size:0.75rem;
+      line-height:1;
+      margin:0 5px 0 0;
+    }
+  }
+  
+#main{
+  background: #B3E5FC;
+  margin: 15px 10px;
+  padding: 0px;
+  border-radius: 10px;
+}
+@media(max-width: 450px){
+  #main{
+    margin: 0;
+  }
+}
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin:0 auto;
+}
+#img-div{
+  background:#EEEEEE;
+  padding: 10px;
+  margin:center;
+}
+@media(max-width: 450px) {
+  #img-div{
+  margin:5px 0px;
+  }
+}
+#img-caption {
+  margin: 0;
+}
+
+@media (max-width: 450px) {
+  #img-caption {
+    font-size: 0.75rem;
+    margin-top:0;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+li {
+  margin: 25px 0;
+}
+h4{
+ max-width: 550px;
+  margin: 0 auto 20px auto;
+  text-align: center; 
+  padding-top: 20px;
+}
